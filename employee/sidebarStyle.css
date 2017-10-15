@@ -1,0 +1,30 @@
+
+#Demo1{
+              background-color: #222222;
+              color: #9d9d9d;
+              padding-right: 0px;
+          }
+          a:hover{
+              text-decoration: none;
+              background-color: #222222;
+              color: ghostwhite;
+          }
+          a:active{
+              background-color: black;
+              color: ghostwhite;
+          }
+          .w3-button:hover {
+            background-color: #222222!important;
+            }
+          h1 ,h3,p{
+              color: black;
+          }
+          #menuButton{
+              background-color: #222224;
+              color: #9d9d9d;
+              margin-bottom: 1px;
+          }
+          .projectButton{
+              
+          }
+          
