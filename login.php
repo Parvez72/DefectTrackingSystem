@@ -1,0 +1,9 @@
+<?php
+session_start();
+if(isset($_SESSION["login_user"])){
+    if(isset($_COOKIE["admin"])){
+    header("Location:admin/adminHomePage.php");}
+    else{
+       header("Location:employee/empHomePage.php"); 
+    }
+}
